@@ -24,9 +24,10 @@ function play(question,answer){
   }
   console.log('----------------------------------------')
 }
-var queArr = [{question: "Where do I work? ",answer: "ADP"},{question: "* What is my Surname? ", answer: "KONTHUM"},{question: "What is my fav Dish?" ,answer: "BIRYANI"}]
+var queArr = [{question: "Where do I work? ",answer: "ADP"},{question: "* What is my Surname? ", answer: "KONTHUM"},{question: "What is my fav Dish?" ,answer: "BIRYANI"},{question: "What is my fav hero?" ,answer: "Mahesh"},{question: "What is my fav Cricketer?" ,answer: "Virat"}]
 for (i=0;i < queArr.length ; i++){
   console.log("* Here is question: "+ (i+1))
   play(queArr[i].question,queArr[i].answer)
 }
 console.log("Your Final Score is: " + score);
+
